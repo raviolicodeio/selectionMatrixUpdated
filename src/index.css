@@ -1,0 +1,37 @@
+#wrapper {
+  width: 960px;
+}
+
+#matrixDiv {
+  margin: 0 auto;
+  border: 10px dotted #000;
+}
+
+table {
+  cursor: pointer;
+}
+
+td {
+  border: 2px solid #fff;
+  height: 20px;
+  width: 30px;
+  padding: 0 2px;
+  text-align: center;
+  background: rgb(140, 157, 195);
+}
+
+td.th {
+  background: none;
+}
+
+td.isDisabled {
+  background: #333;
+}
+
+td.isHighlighted {
+  background: #800080;
+}
+
+td.isDragging {
+  background: #23d555;
+}
